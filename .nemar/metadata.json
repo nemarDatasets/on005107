@@ -1,0 +1,30 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005107",
+  "source": "openneuro",
+  "source_id": "ds005107",
+  "title": "FACE-DEC",
+  "authors": {
+    "Wei Xu": {},
+    "et al.": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005107.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "beh",
+    "meg"
+  ],
+  "datatypes": [
+    "beh",
+    "meg"
+  ]
+}
