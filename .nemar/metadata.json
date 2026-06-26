@@ -1,30 +1,68 @@
 {
   "version": "2.0",
-  "dataset_id": "on005107",
-  "source": "openneuro",
-  "source_id": "ds005107",
+  "pipeline_stage": "validated",
   "title": "FACE-DEC",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Wei Xu": {},
     "et al.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005107.v2.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005107",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005107",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "meg"
   ],
-  "datatypes": [
-    "beh",
-    "meg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bmp",
+    ".fif",
+    ".jl",
+    ".json",
+    ".m",
+    ".md",
+    ".py",
+    ".tsv",
+    ".txt"
+  ],
+  "description": "FACE-DEC is an optically pumped magnetometer (OPM) MEG dataset acquired during face decoding tasks. The dataset includes raw MEG data, preprocessing pipelines, decoding analyses, representational similarity analysis (RSA), and Bayesian model selection procedures. Analyses were conducted at the whole-brain and sensor level without individual structural MRI or facial point cloud data.",
+  "methods_description": "Data were acquired using OPM-MEG and originally stored in LabVIEW format before conversion to FIF format. Sensor coordinates were approximated from Elekta layout templates for topographic visualization purposes.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "face perception"
+    },
+    {
+      "term": "decoding"
+    },
+    {
+      "term": "representational similarity analysis"
+    },
+    {
+      "term": "optically pumped magnetometer"
+    }
+  ],
+  "source_hash": "d7e3e11980fc98f0171007070055febe1a88ab0da775e53aba9888844551b59d"
 }
