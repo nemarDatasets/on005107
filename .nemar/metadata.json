@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "FACE-DEC",
-  "description": "FACE-DEC is an OPM-MEG dataset containing neuroimaging data acquired during facial processing tasks. The dataset includes raw magnetoencephalography recordings, preprocessing pipelines, decoding analyses, representational similarity analysis (RSA), and Bayesian model selection procedures. Analyses were conducted at the whole-brain and sensor levels without individual structural MRI or facial point cloud data. This study was approved by the Institutional Review Board of Peking University. The raw data were originally stored in LabVIEW format and subsequently converted to FIF format. Sensor coordinates were approximated from Elekta layout templates for topographic visualization purposes and do not reflect actual sensor positions.",
-  "methods_description": "Data were acquired using OPM-MEG during facial processing experiments. Raw data were originally stored in LabVIEW format and subsequently converted to FIF format. Sensor coordinates were approximated from Elekta layout templates for topographic visualization purposes and do not reflect actual sensor positions. Individual facial point clouds and structural MRIs were not collected due to unavailability of optical scanning equipment. All analyses were conducted at the whole-brain and sensor levels.",
+  "description": "FACE-DEC is an OPM-MEG dataset containing neuroimaging data acquired during face processing tasks. The dataset includes raw magnetoencephalography recordings, preprocessing pipelines, decoding analyses, representational similarity analysis (RSA), and statistical comparisons. Analyses were conducted at the whole-brain and sensor levels without individual structural MRI or facial point cloud data. This study was approved by the Institutional Review Board of Peking University. For correspondence, contact weixu@mail.bnu.edu.cn.",
+  "methods_description": "Data were acquired using OPM-MEG during face processing experiments. Raw data were originally stored in LabVIEW format and subsequently converted to FIF format. Sensor coordinates were approximated from Elekta layout templates for topographic visualization purposes. Individual facial point clouds and structural MRIs were not collected due to unavailability of optical scanning equipment.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,19 +18,22 @@
       "term": "OPM-MEG"
     },
     {
-      "term": "face recognition"
+      "term": "face processing"
     },
     {
-      "term": "facial processing"
+      "term": "face perception"
+    },
+    {
+      "term": "neural decoding"
+    },
+    {
+      "term": "sensor-level analysis"
     },
     {
       "term": "decoding"
     },
     {
       "term": "representational similarity analysis"
-    },
-    {
-      "term": "Bayesian model selection"
     },
     {
       "term": "magnetoencephalography"
