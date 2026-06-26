@@ -1,19 +1,42 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "FACE-DEC",
+  "description": "FACE-DEC is an OPM-MEG dataset containing neuroimaging data acquired during facial processing tasks. The dataset includes raw magnetoencephalography recordings, preprocessing pipelines, decoding analyses, representational similarity analysis (RSA), and Bayesian model selection procedures. Analyses were conducted at the whole-brain and sensor levels without individual structural MRI or facial point cloud data. This study was approved by the Institutional Review Board of Peking University. The raw data were originally stored in LabVIEW format and subsequently converted to FIF format. Sensor coordinates were approximated from Elekta layout templates for topographic visualization purposes and do not reflect actual sensor positions.",
+  "methods_description": "Data were acquired using OPM-MEG during facial processing experiments. Raw data were originally stored in LabVIEW format and subsequently converted to FIF format. Sensor coordinates were approximated from Elekta layout templates for topographic visualization purposes and do not reflect actual sensor positions. Individual facial point clouds and structural MRIs were not collected due to unavailability of optical scanning equipment. All analyses were conducted at the whole-brain and sensor levels.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Wei Xu": {},
     "et al.": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005107.v2.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "OPM-MEG"
+    },
+    {
+      "term": "face recognition"
+    },
+    {
+      "term": "facial processing"
+    },
+    {
+      "term": "decoding"
+    },
+    {
+      "term": "representational similarity analysis"
+    },
+    {
+      "term": "Bayesian model selection"
+    },
+    {
+      "term": "magnetoencephalography"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005107",
       "identifier_type": "URL",
@@ -23,16 +46,21 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005107",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005107.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "meg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "29.6 GB (775 files)"
   ],
   "formats": [
     ".bmp",
@@ -43,26 +71,8 @@
     ".md",
     ".py",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "FACE-DEC is an optically pumped magnetometer (OPM) MEG dataset acquired during face decoding tasks. The dataset includes raw MEG data, preprocessing pipelines, decoding analyses, representational similarity analysis (RSA), and Bayesian model selection procedures. Analyses were conducted at the whole-brain and sensor level without individual structural MRI or facial point cloud data.",
-  "methods_description": "Data were acquired using OPM-MEG and originally stored in LabVIEW format before conversion to FIF format. Sensor coordinates were approximated from Elekta layout templates for topographic visualization purposes.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "face perception"
-    },
-    {
-      "term": "decoding"
-    },
-    {
-      "term": "representational similarity analysis"
-    },
-    {
-      "term": "optically pumped magnetometer"
-    }
-  ],
-  "source_hash": "d7e3e11980fc98f0171007070055febe1a88ab0da775e53aba9888844551b59d"
+  "source_hash": "fcde195fb92e5234d160615cc07d4d3b091a4048dc4425e1e4b14f110012cdaf"
 }
