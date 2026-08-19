@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "FACE-DEC",
-  "description": "FACE-DEC is an OPM-MEG dataset containing neuroimaging data acquired during face processing tasks. The dataset includes raw magnetoencephalography recordings, preprocessing pipelines, decoding analyses, representational similarity analysis (RSA), and statistical comparisons. Analyses were conducted at the whole-brain and sensor levels without individual structural MRI or facial point cloud data. This study was approved by the Institutional Review Board of Peking University. For correspondence, contact weixu@mail.bnu.edu.cn.",
-  "methods_description": "Data were acquired using OPM-MEG during face processing experiments. Raw data were originally stored in LabVIEW format and subsequently converted to FIF format. Sensor coordinates were approximated from Elekta layout templates for topographic visualization purposes. Individual facial point clouds and structural MRIs were not collected due to unavailability of optical scanning equipment.",
+  "description": "This dataset contains OPM-MEG recordings from a face processing study conducted at the whole-brain and sensor level. The data were originally acquired using an in-house LabVIEW acquisition system and later converted to FIF format for standardized analysis. Analyses include preprocessing, decoding, representational similarity analysis (RSA), statistical testing, and Bayesian model selection.",
+  "methods_description": "Data were acquired using OPM-MEG hardware, originally stored in an in-house LabVIEW format and later converted to FIF format. Sensor coordinates were approximated using positions from the Elekta layout for topographic visualization purposes only, as individual facial point clouds and structural MRIs were not collected.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,7 +12,9 @@
   },
   "keywords": [
     {
-      "term": "MEG"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
     {
       "term": "OPM-MEG"
@@ -21,22 +23,13 @@
       "term": "face processing"
     },
     {
-      "term": "face perception"
-    },
-    {
-      "term": "neural decoding"
-    },
-    {
-      "term": "sensor-level analysis"
-    },
-    {
       "term": "decoding"
     },
     {
       "term": "representational similarity analysis"
     },
     {
-      "term": "magnetoencephalography"
+      "term": "Bayesian model selection"
     }
   ],
   "related_identifiers": [
@@ -46,14 +39,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005107",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005107.v2.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005107",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
