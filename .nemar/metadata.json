@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "FACE-DEC",
-  "description": "This dataset contains OPM-MEG recordings from a face processing study conducted at the whole-brain and sensor level. The data were originally acquired using an in-house LabVIEW acquisition system and later converted to FIF format for standardized analysis. Analyses include preprocessing, decoding, representational similarity analysis (RSA), statistical testing, and Bayesian model selection.",
-  "methods_description": "Data were acquired using OPM-MEG hardware, originally stored in an in-house LabVIEW format and later converted to FIF format. Sensor coordinates were approximated using positions from the Elekta layout for topographic visualization purposes only, as individual facial point clouds and structural MRIs were not collected.",
+  "description": "FACE-DEC is an OPM-MEG (optically pumped magnetometer magnetoencephalography) dataset for studying face perception through multivariate decoding and representational similarity analysis. The release includes analysis code for preprocessing (face_1_prep), decoding (face_2_dec), RSA (face_3_rsa), statistics (face_4_stat), and Bayesian model selection (face_6_bayes.m), with a main entry script (face_0_main). Individual facial point clouds and structural MRIs were not collected because optical scanning equipment was unavailable, so all analyses were performed at the whole-brain sensor level. Data collection was approved by the Institutional Review Board of Peking University.",
+  "methods_description": "Data were acquired with an OPM-MEG system and stored in an in-house LabVIEW format, then converted to FIF. Sensor coordinates were approximated from the Elekta layout and do not reflect actual sensor positions; they are used only for topographic visualization. No structural MRI or facial point clouds were collected.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,16 +20,13 @@
       "term": "OPM-MEG"
     },
     {
-      "term": "face processing"
+      "term": "face perception"
     },
     {
       "term": "decoding"
     },
     {
       "term": "representational similarity analysis"
-    },
-    {
-      "term": "Bayesian model selection"
     }
   ],
   "related_identifiers": [
@@ -56,7 +53,7 @@
     "meg"
   ],
   "sizes": [
-    "29.6 GB (775 files)"
+    "27.59 GB (775 files)"
   ],
   "formats": [
     ".bmp",
